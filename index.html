@@ -3,14 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <title>Three Rivers Resort</title>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-  <h1>Pittsburgh’s Finest Luxury Destination</h1>
-  <form>
-    <lable for="fname">First name</lable>
-    <input type="text" id="fname" name="fname">
+  
+  <h1>Pittsburgh's Finest Luxury Destination</h1>
+  
 
+  <form id="names">
+    <label class="label" for="fname">First name</lable>
+    <input class="inputs" type="text" id="fname" name="fname">
 
+    <label class="label" for="lname">Last name</label>
+    <input class="inputs" type="text" id="lname" name="lname">
+
+    <label class="label" for="email">Email</label>
+    <input class="inputs" type="email" id="email" name="email">
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <form id="numbers" action="">
+    <label for="address">Address</label>
+    <input type="address" id="address" name="address">
+
+    <label for="rooms">Number of Rooms</label>
+    <select id="rooms" name="rooms">
+      <option value="one">1</option>
+      <option value="two">2</option>
+    </select>
+    <input type="submit">
   </form>
 
 

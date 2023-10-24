@@ -1,0 +1,27 @@
+
+
+body {
+  background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/picture-perfect-pittsburgh-pa-panorama-frozen-in-time-fine-art-photography.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.label {
+  color: rgb(234, 213, 255);
+}
+
+.inputs {
+  opacity: 80%;
+}
+
+h1 {
+  color:rgb(237, 255, 149) ;
+}
+
+label {
+  margin: 10px 5px 10px;
+  padding: 10px 15px 10px;
+}
+
+
+
+
