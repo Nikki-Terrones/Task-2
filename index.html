@@ -10,7 +10,7 @@
   <h1>Pittsburgh's Finest Luxury Destination</h1>
   
 
-  <form id="names">
+  <form>
     <label class="label" for="fname">First name</lable>
     <input class="inputs" type="text" id="fname" name="fname">
 
@@ -24,7 +24,7 @@
   </form>
 
 
-  <form id="numbers" action="">
+  <form>
     <label for="address">Address</label>
     <input type="address" id="address" name="address">
 
@@ -62,9 +62,12 @@
       <option value="six">6</option>
       <option value="seven">7</option>
     </select>
-
-    <input type="submit">
+    <input type="text" id="nights" placeholder="" required>
+    <span class="error">Please enter amount</span>
   </form>
+
+  <button type="button">Confirm Reservation</button>
+
 
 
 
