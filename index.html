@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Three Rivers Resort</title>
   <link rel="stylesheet" href="styles.css"/>
 </head>
@@ -12,54 +13,47 @@
 
   
   <form>
-    <label class="label" for="fname">First name</lable>
+    <label for="fname">First name</lable>
       <input class="inputs" type="text" id="fname" name="fname" required>
 
-    <label class="label" for="lname">Last name</label>
+    <label for="lname">Last name</label>
       <input class="inputs" type="text" id="lname" name="lname" required>
 
-    <label class="label" for="email">Email</label>
+    <label for="email">Email</label>
       <input class="inputs" type="email" id="email" name="email" required>
-
     <input type="submit" value="Submit" required>
   </form>
 
 
 
   <form>
-    <label class="label" for="address">Address</label>
-    <input type="address" id="address" name="address" required>
+    <label for="address">Address</label>
+    <input class="inputs" type="address" id="address" name="address" required>
+  </form>
 
-    <label class="label" for="rooms">Number of Rooms</label>
-    <select id="rooms" name="rooms">
-      
+  <form>
+    <label for="rooms">Number of Rooms</label>
+    <select id="rooms" name="rooms">      
       <option value="one">1</option>
       <option value="two">2</option>
     </select>
-
-    <input type="submit" id="rooms" name="rooms" required>
+    <input  type="submit" id="rooms" name="rooms" required>
   </form>
 
-
-
   <form>
-
-    <label class="label" for="adults">Number of Adults</label>
+    <label for="adults">Number of Adults</label>
     <select id="adults" name="adults">
       <option value="one">1</option>
       <option value="two">2</option>
       <option value="three">3</option>
       <option value="four">4</option>
+      <input type="submit" id="adults" name="adults" required>
     </select>
-    <input type="submit" id="adults" name="adults" required>
-
   </form>
 
-
-
   <form>      
-    <label class="label" for="nights">Number of Nights</label>
-    <select id="nights" name="nights">
+    <label for="nights">Number of Nights</label>
+    <select id="nights" name="nights" required>
       <option value="one">1</option>
       <option value="two">2</option>
       <option value="three">3</option>
@@ -67,7 +61,8 @@
       <option value="five">5</option>
       <option value="six">6</option>
       <option value="seven">7</option>
-    </select>      
+    </select>
+    <input type="submit"  min="1" max="7" value="Submit">  
   </form>
 
   <input type="submit" value="Confirm Reservation">

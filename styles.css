@@ -5,22 +5,28 @@ body {
   background-size: cover;
 }
 
-.label {
-  color: rgb(184, 6, 6);
-}
-
 .inputs {
   opacity: 80%;
 }
 
+input, type {
+  color:rgb(1, 1, 112);
+}
+
 h1 {
-  color:rgb(237, 255, 149) ;
+  color:rgb(229, 248, 129);
+  font-family: 'Brush Script MT', cursive;
 }
 
 label {
   margin: 10px 5px 10px;
   padding: 10px 15px 10px;
+  color: rgb(184, 6, 6)
+}
 
+form {
+  display: flex;
+  justify-content: center | space-around;
 }
 
 
