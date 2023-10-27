@@ -31,7 +31,9 @@ form {
   justify-content: center, space-around;
 }
 
-
+.forming {
+  align-items: center;
+}
 
 
 
