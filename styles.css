@@ -5,10 +5,6 @@ body {
   background-size: cover;
 }
 
-.flex {
-  display: flex;
-}
-
 .inputs {
   opacity: 80%;
 }
@@ -32,7 +28,7 @@ label {
 
 form {
   display: flex;
-  justify-content: center | space-around;
+  justify-content: center, space-around;
 }
 
 
