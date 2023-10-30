@@ -9,8 +9,9 @@ body {
   opacity: 80%;
 }
 
-input, type {
-  color:rgb(1, 1, 112);
+input {
+  color:rgb(138, 56, 245);
+  
 }
 
 h1 {
@@ -19,22 +20,26 @@ h1 {
   text-align: center;
 }
 
+
 label {
-  display: flex;
-  margin: 10px 5px 10px;
-  padding: 10px 15px 10px;
+  /* display: flex; */
+  margin: 5px;
+  padding: 3px;
   color: rgb(184, 6, 6)
 }
 
 form {
   display: flex;
   justify-content: center, space-around;
-}
-
-.forming {
   align-items: center;
 }
 
 
-
+div {
+  display: block;
+  column-count: 3;
+  border-width: 3px;
+  border-style: solid;
+  margin: 9px;
+}
 
