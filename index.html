@@ -10,80 +10,61 @@
   
   <h1>Pittsburgh's Finest Luxury Destination</h1>
   
+  <form>
+    <div>
+        <label class="fname" for="fname">First name</label>
+          <input class="inputs" type="text" id="fname" name="fname" required>
 
-  <div>
-    <form>
-      <label class="fname" for="fname">First name</label>
-        <input class="inputs" type="text" id="fname" name="fname">
-      </form>
-    <form>
-      <label class="lname" for="lname">Last name</label>
-        <input class="inputs" type="text" id="lname" name="lname">
-    </form>
-    <form>
-      <label class="email" for="email">Email</label>
-        <input class="inputs" type="email" id="email" name="email">
-    </form>
-  </div>
+        <label class="lname" for="lname">Last name</label>
+          <input class="inputs" type="text" id="lname" name="lname" required>
 
 
-  <div>
-    <form>
-      <label class="address" for="address">Address</label>
-      <input class="inputs" type="text" id="address" name="address">
-    </form>
-  </div>
+        <label class="email" for="email">Email</label>
+          <input class="inputs" type="email" id="email" name="email" required>
+    </div>
 
 
-  <div>
-    <form>
-      <label class="rooms" for="rooms">Number of Rooms</label>
-      <select id="rooms" name="rooms">
-        <option value="hidden">Select option</option>
-        <option value="one">1</option>
-        <option value="two">2</option>
-      </select>
-      <input type="submit" value="Submit">
-    </form>
-  </div>
+    <div>
+        <label class="address" for="address">Address</label>
+          <input class="inputs" type="text" id="address" name="address" required>
+
+        <label class="rooms" for="rooms">Number of Rooms</label>        
+          <select id="rooms" name="rooms">          
+            <option value="hidden">Select option</option>
+            <option value="one">1</option>
+            <option value="two">2</option>
+          </select>
+        <input class="inputs" type="number" name="rooms" min="1" max="2" required>
 
 
-  <div>
-    <form>
-      <label class="adults" for="adults">Number of Adults</label>
-      <select id="adults" name="adults">
-        <option value="">Select option</option>
-        <option value="one">1</option>
-        <option value="two">2</option>
-        <option value="three">3</option>
-        <option value="four">4</option>
-      </select>
-      <input type="submit" min="1" max="4" value="Submit">
-    </form>
-  </div>
+        <label class="adults" for="adults">Number of Adults</label>
+        <select id="adults" name="adults">
+          <option value="">Select option</option>
+          <option value="one">1</option>
+          <option value="two">2</option>
+          <option value="three">3</option>
+          <option value="four">4</option>
+        </select>
+        <input type="number" min="1" max="4" value="Submit">
+  
+        <label class="nights" for="nights">Number of Nights</label>
+        <select id="nights" name="nights" required>
+          <option value="Select option">Select option</option>
+          <option value="one">1</option>
+          <option value="two">2</option>
+          <option value="three">3</option>
+          <option value="four">4</option>
+          <option value="five">5</option>
+          <option value="six">6</option>
+          <option value="seven">7</option>
+        </select>
+        <input type="number" min="1" max="7" value="Submit" required>
+    </div>
 
-
-  <div>
-    <form>      
-      <label class="nights" for="nights">Number of Nights</label>
-      <select id="nights" name="nights" required>
-        <option value="Select option">Select option</option>
-        <option value="one">1</option>
-        <option value="two">2</option>
-        <option value="three">3</option>
-        <option value="four">4</option>
-        <option value="five">5</option>
-        <option value="six">6</option>
-        <option value="seven">7</option>
-      </select>
-      <input type="submit" min="1" max="7" value="Submit" required>  
-    </form>
-  </div>
-
-  <div>
-    <input type="submit" value="Confirm Reservation" required>
-  </div>
-
+    <div id="reservation">
+      <input type="submit" value="Confirm Reservation" required>
+    </div>
+  </form>
 
 </body>
 </html>

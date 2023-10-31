@@ -22,14 +22,14 @@ h1 {
 
 
 label {
-  /* display: flex; */
+  display: flex;
   margin: 5px;
   padding: 3px;
   color: rgb(184, 6, 6)
 }
 
 form {
-  display: flex;
+  display: box;
   justify-content: center, space-around;
   align-items: center;
 }
@@ -40,6 +40,10 @@ div {
   column-count: 3;
   border-width: 3px;
   border-style: solid;
-  margin: 9px;
+  margin: 20px;
+  padding: 10px;
 }
 
+#reserveation {
+  align-items: center;
+}
