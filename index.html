@@ -11,32 +11,29 @@
   <h1>Pittsburgh's Finest Luxury Destination</h1>
   
   <form>
-    <div>
-        <label class="fname" for="fname">First name</label>
-          <input class="inputs" type="text" id="fname" name="fname" required>
+    <div class="center">
+      <label class="fname" for="fname">First name</label>
+        <input class="inputs" type="text" id="fname" name="fname" required>
 
-        <label class="lname" for="lname">Last name</label>
-          <input class="inputs" type="text" id="lname" name="lname" required>
+      <label class="lname" for="lname">Last name</label>
+        <input class="inputs" type="text" id="lname" name="lname" required>
 
 
-        <label class="email" for="email">Email</label>
-          <input class="inputs" type="email" id="email" name="email" required>
+      <label class="email" for="email">Email</label>
+        <input class="inputs" type="email" id="email" name="email" required>
     </div>
 
-
-    <div>
+    <div class="center">
         <label class="address" for="address">Address</label>
           <input class="inputs" type="text" id="address" name="address" required>
-
+              
         <label class="rooms" for="rooms">Number of Rooms</label>        
           <select id="rooms" name="rooms" required>          
             <option value="">Select option</option>
             <option value="one">1</option>
             <option value="two">2</option>
-          </select><br/>
+          </select>
         
-
-
         <label class="adults" for="adults">Number of Adults</label>
         <select id="adults" name="adults" required>
           <option class="num of adults" value="">Select option</option>
@@ -45,7 +42,10 @@
           <option value="three">3</option>
           <option value="four">4</option>
         </select>
-  
+      </div>
+    </div>
+      
+      <div class="center">
         <label class="nights" for="nights">Number of Nights</label>
         <select id="nights" name="nights" required>
           <option value="">Select option</option>
@@ -57,10 +57,11 @@
           <option value="six">6</option>
           <option value="seven">7</option>
         </select>
-    </div>
+      </div>
+    
 
-    <div id="reservation">
-      <input type="submit" value="Confirm Reservation">
+    <div class="center" id="validate">
+      <button type="submit" value="Confirm Reservation" required>Confirm Reservation</button>
     </div>
   </form>
 
